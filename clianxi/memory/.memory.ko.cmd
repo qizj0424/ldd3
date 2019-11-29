@@ -1,0 +1,1 @@
+cmd_/home/book/work/ldd3/clianxi/memory/memory.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/book/work/ldd3/clianxi/memory/memory.ko /home/book/work/ldd3/clianxi/memory/memory.o /home/book/work/ldd3/clianxi/memory/memory.mod.o ;  true
