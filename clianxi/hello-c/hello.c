@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include<stdio.h>
 int main(void)
 {
@@ -35,3 +36,20 @@ int main(void)
    // printf("字母= %d,空格= %d,数字= %d,其它= %d\n",char_num,kongge_num,int_num,other_num);
     return 0;
 }
+=======
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+                                                                                
+int main(int argc, char* argv[])
+{
+        int fd;
+        fd = open("/home/gaobsh/a.txt", O_RDONLY);
+        //if (fd >= 0) close(fd);
+        return 0;
+}
+
+>>>>>>> c56ccd06a623f70ffd923fd1a2cda67529fe5179
