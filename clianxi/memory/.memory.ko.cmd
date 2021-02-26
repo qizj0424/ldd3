@@ -1,1 +1,1 @@
-cmd_/home/book/work/ldd3/clianxi/memory/memory.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/book/work/ldd3/clianxi/memory/memory.ko /home/book/work/ldd3/clianxi/memory/memory.o /home/book/work/ldd3/clianxi/memory/memory.mod.o ;  true
+cmd_/home/zjqi/ldd3/clianxi/memory/memory.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/zjqi/ldd3/clianxi/memory/memory.ko /home/zjqi/ldd3/clianxi/memory/memory.o /home/zjqi/ldd3/clianxi/memory/memory.mod.o ;  true
